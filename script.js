@@ -1,18 +1,3 @@
-// console.log(carta1.setup); //acessar a lista de atributos=setup
-// console.log(carta1.setup.sample); //acessar o atributos=setup
-// console.log(carta1.setup.drumkit);
-// console.log(carta1.setup.workflow);
-
-// Para que o sorteio das cartas seja sempre uma carta diferente da outra
-// usaremos uma estrutura chamada while(enquanto).
-
-// Na parte de jogar usaremos o (for) para percorrer o setup(atributo) de cada carta do jogo.
-
-// função jogar
-// console.log(atributoSelecionado); mostrar o atributo selecionado pelo jogador.
-// console.log(cartaJogador.setup[atributoSelecionado]); mostrar o valor do atributo selecionado pelo jogador.
-
-//  divCartaJogador.style.backgroundImage = `url(${cartaJogador.imagem})` // string que contém um parte de outra string add atributo img ao card. Outra forma de fazer é => divCartaJogador.style.backgroundImage = url"(" + cartaJogador.imagem + ")"
 var carta1 = {
   nome: "PeteRock",
   imagem: "https://resources.tidal.com/images/4c781d3c/cae3/4167/90cc/e01499f53ddb/750x750.jpg",
@@ -124,6 +109,26 @@ function exibirCartaMaquina() {
   
   divCartaMaquina.innerHTML = moldura + nome + tagHTML + opcoesTexto + "</div>"
 }
+
+// COMENTÁRIOS 
+
+// console.log(carta1.setup); //acessar a lista de atributos=setup
+// console.log(carta1.setup.sample); //acessar o atributos=setup
+// console.log(carta1.setup.drumkit);
+// console.log(carta1.setup.workflow);
+
+// Para que o sorteio das cartas seja sempre uma carta diferente da outra
+// usaremos uma estrutura chamada while(enquanto).
+
+// Na parte de jogar usaremos o (for) para percorrer o setup(atributo) de cada carta do jogo.
+
+// função jogar
+// console.log(atributoSelecionado); mostrar o atributo selecionado pelo jogador.
+// console.log(cartaJogador.setup[atributoSelecionado]); mostrar o valor do atributo selecionado pelo jogador.
+
+//  divCartaJogador.style.backgroundImage = `url(${cartaJogador.imagem})` // string que contém um parte de outra string add atributo img ao card. Outra forma de fazer é => divCartaJogador.style.backgroundImage = url"(" + cartaJogador.imagem + ")"
+
+// ===========================================================================================================================================================
 
 // Desafio da Aula
 // resolver o problema: quando o jogador não selecionar nenhum atributo acontece o que?
